@@ -1,5 +1,11 @@
+img {
+  width: 100%;
+}
+
 .App {
   text-align: center;
+  color: white;
+  height: 100vh;
 }
 
 .App-logo {
@@ -26,6 +32,29 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  background-color: #060c1e;
+  padding: 10px;
+}
+
+.homepage {
+  background: black;
+  height: 100%;
+}
+
+.menu-icon {
+  align-self: center;
+  font-size: 15vw;
+  /* background-color: #4d01019a; */
+}
+
+.title {
+  font-size: 15vw;
 }
 
 @keyframes App-logo-spin {
