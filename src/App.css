@@ -1,5 +1,12 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  background-color: black;
+}
+
 img {
   width: 100%;
+  position: relative;
 }
 
 .App {
@@ -56,6 +63,89 @@ img {
 .title {
   font-size: 15vw;
 }
+
+
+/* Nav  */
+
+/* Homepage */
+
+/* MainStory */
+.main-story {
+  position: relative;
+  background-color: black;
+  border-bottom: 1px solid gray;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 10px;
+  /* border: 1px solid green; */
+}
+
+.tag {
+  /* border: 1px solid red; */
+  background-color: #0e1c46;
+  padding: 5px 10px;
+  /* margin-top: 7px; */
+  position: absolute;
+  z-index: 1;
+  left: 10px;
+  top: -12px;
+  text-transform: uppercase;
+  font-size: .7rem;
+}
+
+span {
+  padding: 5px;
+  /* border: 1px solid red; */
+}
+
+.image {
+  position: absolute;
+  /* border: 1px solid yellow; */
+  background-color: black;
+}
+
+.credit {
+  position: absolute;
+  z-index: 1;
+  bottom: 94px;
+  right: 5px;
+  font-weight: 500;
+  font-size: .7rem;
+}
+
+.headline-author {
+  margin-top: .5rem;
+  border-bottom: 1px solid pink;
+  /* border-width: 12rem; */
+  /* display: block; */
+  /* z-index: 1; */
+  /* position: absolute; */
+  text-align: left;
+  margin-left: 1.5rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  width: 90%;
+}
+
+.headline {
+  font-size: 1.5rem;
+  margin-bottom: .2rem;
+}
+
+.author {
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: .7rem;
+  color: salmon;
+  width: 70px;
+}
+
+/* Next Section */
+.next-section {
+  background-color: black;
+}
+
+
 
 @keyframes App-logo-spin {
   from {

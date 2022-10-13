@@ -13,6 +13,10 @@ function Homepage(){
             </nav>
             <MainStory />
             
+            <div className="next-section">
+                Next Section
+            </div>
+            
             
             
         </div>
