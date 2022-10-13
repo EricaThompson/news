@@ -1,4 +1,5 @@
 import MainStory from "./MainStory"
+import Line from "./Line"
 
 function Homepage(){
     return (
@@ -12,7 +13,7 @@ function Homepage(){
                 </div>
             </nav>
             <MainStory />
-            
+            <Line is="first" />
             <div className="next-section">
                 Next Section
             </div>

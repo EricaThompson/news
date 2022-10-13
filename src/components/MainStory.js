@@ -1,3 +1,4 @@
+import Line from "./Line"
 function MainStory(){
     return (
         <div className="main-story">
@@ -10,8 +11,7 @@ function MainStory(){
                     <div className="author">Whom</div>
                 </div>
             </div>
-            
-             
+            {/* <Line is="first" />       */}
         </div>
     )
     }

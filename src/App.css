@@ -2,6 +2,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
   background-color: black;
+  height: 1200px;
 }
 
 img {
@@ -71,11 +72,12 @@ img {
 
 /* MainStory */
 .main-story {
+  /* display: none; */
   position: relative;
   background-color: black;
-  border-bottom: 1px solid gray;
-  padding-bottom: 1rem;
-  margin-bottom: 1rem;
+  /* border-bottom: 1px solid gray; */
+  /* padding-bottom: 1rem; */
+  /* margin-bottom: 1rem; */
   margin-top: 10px;
   /* border: 1px solid green; */
 }
@@ -99,7 +101,7 @@ span {
 }
 
 .image {
-  position: absolute;
+  /* position: absolute; */
   /* border: 1px solid yellow; */
   background-color: black;
 }
@@ -107,7 +109,7 @@ span {
 .credit {
   position: absolute;
   z-index: 1;
-  bottom: 94px;
+  bottom:112px;
   right: 5px;
   font-weight: 500;
   font-size: .7rem;
@@ -115,7 +117,7 @@ span {
 
 .headline-author {
   margin-top: .5rem;
-  border-bottom: 1px solid pink;
+  /* border-bottom: 1px solid pink; */
   /* border-width: 12rem; */
   /* display: block; */
   /* z-index: 1; */
@@ -123,7 +125,7 @@ span {
   text-align: left;
   margin-left: 1.5rem;
   padding-bottom: 1rem;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
   width: 90%;
 }
 
@@ -138,6 +140,19 @@ span {
   font-size: .7rem;
   color: salmon;
   width: 70px;
+}
+
+.first-line {
+  width: 300px;
+  border-top: 1px solid rgb(11, 29, 66);
+  height: 5px;
+  margin-left: 25px;
+}
+
+.line {
+  width: 200px;
+  border-top: 1px solid rgb(27, 59, 91);
+  height: 5px;
 }
 
 /* Next Section */
