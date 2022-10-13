@@ -134,6 +134,28 @@ span {
   margin-bottom: .2rem;
 }
 
+.mini-type {
+  /* color: salmon; */
+  /* position: absolute; */
+  left: 0;
+  top: 10;
+}
+
+.mini-story {
+  margin-bottom: 1rem;
+}
+
+.mini-headline {
+  font-size: .88rem;
+}
+
+.mini-author {
+  color: salmon;
+  font-weight: 100;
+  font-size: .78rem;
+  margin-top: .4rem;
+}
+
 .author {
   font-weight: 100;
   text-transform: uppercase;
