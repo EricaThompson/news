@@ -13,9 +13,11 @@ function Homepage(){
                     🗞
                 </div>
             </nav>
-            <MainStory />
+            <MainStory id={0}/>
             <Line is="first" />
             <Headlines />
+            <Line is="first" />
+            <MainStory id={1}/>
             <div className="next-section">
                 Next Section
             </div>
