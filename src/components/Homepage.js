@@ -1,5 +1,6 @@
 import MainStory from "./MainStory"
 import Line from "./Line"
+import Headlines from "./Headlines"
 
 function Homepage(){
     return (
@@ -14,6 +15,7 @@ function Homepage(){
             </nav>
             <MainStory />
             <Line is="first" />
+            <Headlines />
             <div className="next-section">
                 Next Section
             </div>
