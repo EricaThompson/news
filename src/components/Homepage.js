@@ -15,9 +15,11 @@ function Homepage(){
             </nav>
             <MainStory id={0}/>
             <Line is="first" />
-            <Headlines />
+            <Headlines major={true} />
             <Line is="first" />
             <MainStory id={1}/>
+            <Line is="first" />
+            <Headlines major={false}/>
             <div className="next-section">
                 Next Section
             </div>
